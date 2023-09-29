@@ -7,7 +7,6 @@ body{
 
 header {
     background: #d1e3ee;
-
 }
 
 header nav {
@@ -58,4 +57,36 @@ header nav form input[type="submit"]{
 #seccion01 article img {
     border: 5px solid rgba(150,150,150,.5);
     width: 98%;
+}
+
+#seccion02{
+    margin-bottom: 50px;
+}
+
+#seccion02 article {
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33.0%;
+}
+
+#seccion02 article input[type="submit"] {
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 12px;
+    margin-left: 120px;
+}
+
+.nite{
+    font-weight: bold;
+}
+
+.otraSeccion {
+    font-size: 2.5em;
+}
+
+.unaSeccion {
+    font-size: 4.5em;
+    
 }
