@@ -1,0 +1,120 @@
+body {
+    /* border: 1px solid red; */
+    font-size: 16px; /*1em*/
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+footer article {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
+    width: 17%;
+}
+ 
+footer hr {
+    color: #949494;
+}
+
+header nav ul {
+    padding-left: 0px;
+}
+
+
+header nav ul li {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 10%;
+}
+
+header article {
+    display: inline-block;
+}
+
+section hr {
+    border-style: dashed;
+    color: #949494;
+}
+
+#header-article01 {
+    /* border: 1px solid red; */
+    width: 64%;
+}
+
+#header-article02 {
+    /* border: 1px solid red; */
+    vertical-align: bottom;
+    width: 34%;
+}
+
+#header-article02-imagenes01 {
+    /* border: 1px solid red; */
+    margin-left: 200px;
+}
+
+#header-article02-imagenes02 {
+    /* border: 1px solid red; */
+    margin-left: 55px;
+    margin-right: 200px;
+}
+
+#primeraSeccion article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01-art01 {
+    width: 50%;
+}
+
+#secc01-art02 {
+    height: 510px;
+    width: 35%;
+}
+
+.bike {
+    height: 421px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.buy {
+    height: 50px;
+    width: 50px;
+}
+
+.letra-titulo {
+    font-size: 4em;
+}
+
+.letra-verde {
+    color: #78F14C;
+}
+
+.letra-gris {
+    color: #808080;
+}
+
+.nigger {
+    font-weight: bold;
+}
+
+.shop {
+    height: 50px;
+    width: 120px;
+}
+
+.video01 {
+    margin-top: 30px;
+    height: 150px; 
+    width: 250px
+}
+
+.years{
+    bottom: 90px;
+    height: 80px;
+    position: relative;
+    width: 164px;
+}
