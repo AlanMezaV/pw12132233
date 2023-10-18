@@ -1,194 +1,192 @@
 body {
-    font-size: 16px; /*1em*/
-    margin: 0px auto;
-    max-width: 1078px;
-    min-width: 1078px;
+  font-size: 16px; /*1em*/
+  margin: 0px auto;
+  max-width: 1078px;
+  min-width: 1078px;
 }
 
 header input {
-    float: right;
-    margin-right: -250px;
-    margin-top: 15px;
+  float: right;
+  margin-right: -250px;
+  margin-top: 15px;
 }
 
 header nav {
-    margin-left: 220px;
+  margin-left: 220px;
 }
 
 header nav ul li {
-    border-bottom: 2px solid lightgray;
-    color: lightgray;
-    display: inline-block;
-    font-size: 1.8em;
-    margin-right: 15px;
-    padding-bottom: 4px;
+  border-bottom: 2px solid lightgray;
+  color: lightgray;
+  display: inline-block;
+  font-size: 1.8em;
+  margin-right: 15px;
+  padding-bottom: 4px;
 }
 
 footer {
-    border-top: 3px solid lightgray;
-    background: #4267b3;
+  border-top: 3px solid lightgray;
+  background: #4267b3;
 }
 
 #bgoffer {
-    left: -35px;
-    position: relative;
-    top: -410px;
+  left: -35px;
+  position: relative;
+  top: -410px;
 }
 
 #facebook {
-    bottom: 35px;
-    float: right;
-    position: relative;
-    right: 220px;
+  bottom: 35px;
+  float: right;
+  position: relative;
+  right: 220px;
 }
 
 #feeling {
-    bottom: 210px;
-    float: right;
-    position: relative;
-    left: 5px;
+  bottom: 210px;
+  float: right;
+  position: relative;
+  left: 5px;
 }
 
 #footerart02 {
-    padding-left: 50px;
-    text-align: center;
+  padding-left: 50px;
+  text-align: center;
 }
 
 #footerart03 {
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-left: 150px;
-    padding: 3px 8px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 150px;
+  padding: 3px 8px;
 }
 
 #granthams {
-    margin-left: 25px;
-    margin-top: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 #monitos {
-    bottom: 190px;
-    float: right;
-    position: relative;
-    left: 10px;
+  bottom: 190px;
+  float: right;
+  position: relative;
+  left: 10px;
 }
 
 #paint {
-    float: right;
+  float: right;
 }
 
 #primeraSeccion {
-    height: 318px;
-    margin-top: 60px;
+  height: 318px;
+  margin-top: 60px;
 }
 
 #primeraSeccion article {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #secc01art01 {
-    margin-left: 30px;
-    width: 60%;
+  margin-left: 30px;
+  width: 60%;
 }
 
 #secc01art02 {
-    margin-left: 50px;
-    width: 30%;
+  margin-left: 50px;
+  width: 30%;
 }
 
 #secc01art02 ul {
-    list-style: none;
+  list-style: none;
 }
 
 #secc01art02 ul li:before {
-    color: lightpink;
-    content: "• ";
+  color: lightpink;
 }
 
 #segundaSeccion article {
-    padding-right: 122px;
-    text-align: right;
+  padding-right: 122px;
+  text-align: right;
 }
 
 #secc03art04 {
-    padding-left: 25px;
-    padding-top: 40px;
+  padding-left: 25px;
+  padding-top: 40px;
 }
 
 #seccionFooter {
-    padding-top: 10px;
-    padding-bottom: 7%;
+  padding-top: 10px;
+  padding-bottom: 7%;
 }
 
 #seccionFooter article {
-    display: inline-block;
+  display: inline-block;
 }
 
 #terceraSeccion article {
-    display: inline-block;
-    padding-bottom: 30px;
-    vertical-align: top;
-    width: 23%;
+  display: inline-block;
+  padding-bottom: 30px;
+  vertical-align: top;
+  width: 23%;
 }
 
 #terceraSeccion article img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 #terceraSeccion article input {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 #terceraSeccion article input[type="button"] {
-    background: #8BC500;
-    color: white;
+  background: #8bc500;
+  color: white;
 }
 #twitter {
-    float: right;
-    position: relative;
-    bottom: 144px;
-    right: 160px;
+  float: right;
+  position: relative;
+  bottom: 144px;
+  right: 160px;
 }
 
 .centrado {
-    text-align: center;
+  text-align: center;
 }
 
 .colorrosa {
-    color: #FF0099;
-
+  color: #ff0099;
 }
 
 .colorazul {
-    color: #4267b3
+  color: #4267b3;
 }
 
 .colorverde {
-    color: #8BC500;
+  color: #8bc500;
 }
 
 .colorBlanco {
-    color: white;
+  color: white;
 }
 
 .acomodoCopy {
-    margin-left: 25px;
-    margin-top: 30px;
+  margin-left: 25px;
+  margin-top: 30px;
 }
 
 .letragrande {
-    font-size: 3.5em;
+  font-size: 3.5em;
 }
 
 .letramediana {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .letrapequenia {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 .nite {
-    font-weight: bold;
+  font-weight: bold;
 }
