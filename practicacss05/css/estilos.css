@@ -1,3 +1,7 @@
+/* html {
+    background-color: white;
+} */
+
 body {
     /* border: 1px solid red; */
     background-color: #275E90;
@@ -41,6 +45,13 @@ section ul li::before {
     color: white;
     content: "</> ";
 }
+
+section article input[type="button"]{
+    background: #65C2E4;
+    border: 1px solid #65C2E4;
+    border-radius: 5px;
+    color: white;
+ }
 
 #primera-seccion {
     vertical-align: top;
