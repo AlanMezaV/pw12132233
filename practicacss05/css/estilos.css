@@ -1,0 +1,235 @@
+body {
+    /* border: 1px solid red; */
+    background-color: #275E90;
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header nav {
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin: 0px 6px;
+    padding: 6px 0px;
+}
+
+header nav img {
+    height: 40px;
+    width: 100px;
+}
+
+section {
+    background-color: white;
+    display: inline-block;
+    height: 700px;
+    margin-top: -5px;
+}
+
+section ul {
+    list-style: none;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+section ul li {
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+section ul li::before {
+    color: white;
+    content: "</> ";
+}
+
+#primera-seccion {
+    vertical-align: top;
+    background-color: #EFEFEF;
+    margin-left: 6px;
+    padding-left: 20px;
+    padding-right: 9px;
+    width: 25%;
+}
+
+#segunda-seccion {
+    border-radius: 5px;
+    margin-left: -4px;
+    width: 71%;
+}
+
+#segunda-seccion article {
+    display: inline-block;
+}
+
+#secc01-art01 {
+    background-color: #204A72;
+    margin-bottom: 20px;
+    padding: 4px 12px;
+}
+
+#secc01-art01 img {
+    margin-top: -4px;
+    margin-left: -12px;
+}
+
+#secc01-art02 {
+    border: 1px solid lightgray;
+    margin-top: 50px;
+}
+
+#secc02-art01-principal {
+    padding: 15px 10px;
+}
+
+#secc02-art02-principal {
+    padding: 15px 10px;
+}
+
+#secc02-art02-principal img{
+    width: 700px;
+}
+
+#secc02-art03-principal {
+    padding: 0px 10px;
+}
+
+#secc02-art01 {
+    background-color: #25A62C;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art01 img {
+    margin: 0px 22px;
+}
+
+#secc02-art01 span {
+    margin-top: 10px;
+}
+
+#secc02-art02 {
+    background-color: #216EA7;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art02 img {
+    margin: 0px 18px;
+}
+
+#secc02-art03 {
+    background-color: #7E24A6;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art03 img {
+    margin: 0px 25px;
+}
+
+#secc02-art04 {
+    background-color: #A41C21;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art04 img {
+    margin: 0px 25px;
+}
+
+#secc02-art05 {
+    background-color: #4C6DAC;
+    padding: 10px 10px;
+    margin-left: 3.5px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art06 {
+    background-color: #4C6DAC;
+    padding: 10px 10px;
+    margin-left: 3.5px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art07 {
+    background-color: #4C6DAC;
+    padding: 10px 10px;
+    margin-left: 3.5px;
+    text-align: center;
+    width: 21%;
+}
+
+#secc02-art08 {
+    background-color: #4C6DAC;
+    padding: 10px 10px;
+    margin-left: 3.5px;
+    text-align: center;
+    width: 21%;
+}
+
+.arriba {
+    background-color: #275E90;
+    padding: 10px 0px;
+    padding-left: 43px;
+    padding-right: 85px;
+    margin-left: -1px;
+}
+
+.barras {
+    width: 250px;
+}
+
+.logo {
+    margin-left: 350px;
+}
+
+.logo-progress {
+    position: relative;
+    bottom: 270px;
+    height: 35px;
+}
+
+.letra-blanco {
+    color: white;
+}
+
+.letra-gris {
+    color: #6B6B6B;
+}
+
+.message {
+    margin-top: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+.notifications {
+    margin-left: 680px;
+}
+
+.titulos {
+    margin-left: 15px;
+}
+
+.users {
+    height: 145px;
+    width: 150px;
+}
