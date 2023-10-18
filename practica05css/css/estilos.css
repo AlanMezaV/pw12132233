@@ -5,7 +5,8 @@
 body {
     /* border: 1px solid red; */
     background-color: #275E90;
-    font-size: 16px; /*1em*/
+    font-size: 16px;
+    /*1em*/
     margin: 0px auto;
     max-width: 1024px;
 }
@@ -46,12 +47,13 @@ section ul li::before {
     content: "</> ";
 }
 
-section article input[type="button"]{
+section article input[type="button"] {
     background: #65C2E4;
     border: 1px solid #65C2E4;
     border-radius: 5px;
     color: white;
- }
+
+}
 
 #primera-seccion {
     vertical-align: top;
@@ -96,7 +98,7 @@ section article input[type="button"]{
     padding: 15px 10px;
 }
 
-#secc02-art02-principal img{
+#secc02-art02-principal img {
     width: 700px;
 }
 
@@ -243,4 +245,8 @@ section article input[type="button"]{
 .users {
     height: 145px;
     width: 150px;
+}
+
+.nito {
+    font-weight: bold;
 }
