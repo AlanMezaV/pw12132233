@@ -1,0 +1,127 @@
+body {
+    /* border: 1px solid red; */
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+footer {
+    background-color: black;
+    height: 250px;
+    padding: 20px 20px 0px 20px;
+}
+
+footer article {
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+}
+
+footer img {
+    margin-left: -10px;
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    background-color: black;
+    padding: 5px 0px;
+}
+
+header img {
+    height: 30px;
+    margin-left: 50px;
+    width: 30px;
+}
+
+header span {
+    position: relative;
+    bottom: 8px;
+}
+
+header input[type="button"]{
+    float: right;
+    margin-top: 4px;
+    margin-right: 50px;
+    margin-left: -40px;
+}
+
+#primera-seccion {
+    background-color: #DADBF1;
+    height: 200px;
+    padding-top: 60px;
+}
+
+#segunda-seccion {
+    height: 600px;
+    padding: 20px 50px 0px 50px;
+}
+
+#segunda-seccion article {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 130px;
+    width: 35%;
+}
+
+#segunda-seccion article img {
+    position: relative;
+    top: 80px;
+    right: 90px;   
+}
+
+#footer-art01 {
+    margin-left: 40px;
+}
+
+#footer-art02 {
+    margin-top: 100px;
+}
+
+.busqueda {
+    margin-left: 230px;
+    margin-top: 15px;
+    padding: 10px 350px 10px 10px;
+}
+
+.foto-tarjeta {
+    height: 76px;
+    width: 70px;
+}
+
+.icono {
+    position: relative;
+    left: -30px;
+}
+
+.letra-azul {
+    color: #6661B7;
+}
+
+.letra-blanco {
+    color: white;
+}
+
+.letra-grande {
+    font-size: 3.8em;
+    margin-left: 265px;
+    margin-top: 100px;
+}
+
+.morado {
+    border: 1px solid #4B5FD3;
+    border-radius: 5px;
+    background-color: #4B5FD3;
+    padding: 4px 10px;
+}
+
+.negro {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #181A1C;
+    padding: 4px 10px;
+}
+
+.nito {
+    font-weight: bold;
+}
