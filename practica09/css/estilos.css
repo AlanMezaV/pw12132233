@@ -6,21 +6,24 @@ body {
 }
 
 header nav ul {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     padding-left: 0px;
 }
 
 header nav ul li {
-    display: inline-block;
     margin-right: 260px;
 }
 
 #header-art02 {
-    margin-left: 120px; 
+    display: flex;
+    justify-content: center;
 }
 
-#header-art03 article{
-    display: inline-block;
+#header-art03{
+    display: flex;
+    justify-content: space-between;
     vertical-align: top;
     margin-top: 20px;
 }
@@ -31,12 +34,10 @@ header nav ul li {
 
 #header-art05 {
     width: 12%;
-    margin-right:80px;
 }
 
 #header-art06 {
     width: 30%;
-    margin-right: 70px;
 }
 
 #header-art07 {
@@ -44,17 +45,18 @@ header nav ul li {
 }
 
 #primera-seccion-art01 {
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
 }
 
-#segunda-seccion article {
-    display: inline-block;
+#segunda-seccion {
+    display: flex;
+    justify-content: space-between;
     vertical-align: top;
 }
 
 #segunda-seccion-art01 {
     width: 58%;
-    margin-right: 10px;
 }
 
 #segunda-seccion-art02 {
@@ -66,7 +68,7 @@ header nav ul li {
 }
 
 .letras-grandes {
-    font-size: 4em;
+    font-size: 8em;
 }
 
 .letra-gris {

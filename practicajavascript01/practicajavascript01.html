@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const pi = 3.1416;
+        //pi = 3.14
+        var a = 22; //var malo, usar let
+        var b;
+        document.writeln("Valor a " + a);
+        if (b != undefined) {
+            document.writeln("Valor b " + b);
+        }
+
+        for (let a = 0; a <= 10; a++) {
+            document.writeln(a);
+        }
+        document.writeln(a);
+        alert("Hola JS");
+        let n = prompt("Tu nombre");
+
+        if (n != null) {
+            document.write("<br>" + n);
+        }
+
+        let y = 8;
+        let z = 2;
+        document.write("<br>");
+        document.write("Suma: " + (y + z));
+        document.write(`Suma: ${y}+${z}`);
+
+        function suma(a, b) {
+            return a + b;
+        }
+    </script>
+</body>
+
+</html>

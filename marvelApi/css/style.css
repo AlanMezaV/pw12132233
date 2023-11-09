@@ -1,0 +1,110 @@
+/* html {
+    background-color: hsl(232, 22%, 19%);
+}  */
+
+body {
+    /* border-radius: 22px; */
+    /* border: 1px solid red; */
+    background: rgb(28,14,18);
+    background: linear-gradient(90deg, rgba(28,14,18,1) 16%, rgba(28,24,51,1) 72%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    /* max-width: 1024px; */
+    height: 100vh;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+header nav ul li {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    list-style: none;
+}
+
+#header-art {
+    display: flex;
+    justify-content: center;
+}
+
+#header-art img{
+    margin-left: 70px;
+}
+
+#header-art nav {
+    margin-left: 20px;
+    width: 30%;
+}
+
+#art-principal {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#art-secundario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 60%;
+}
+
+#art-secundario-01 {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+#art-secundario-02 {
+    margin-left: 110px;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    flex-direction: column;
+    
+    width: 400px;
+    height: 380px;
+    margin-left: 90px;
+}
+
+.cantidad {
+    width: 182px;
+}
+
+.enviar {
+    border: 1px solid hsl(235, 13%, 17%);
+    background-color: hsl(235, 18%, 26%);
+    margin-left: 50px;
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+}
+
+.imagen {
+    border-radius: 100px;
+}
+
+.miles {
+    bottom: 70px;
+    position: relative;
+}
+
+.letra-blanca {
+    color: white;
+}
+
+.letra-roja {
+    color: #E60F0F;
+}
+
+.nito {
+    font-weight: bold;
+}
