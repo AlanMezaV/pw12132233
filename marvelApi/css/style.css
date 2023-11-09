@@ -3,15 +3,11 @@
 }  */
 
 body {
-    /* border-radius: 22px; */
-    /* border: 1px solid red; */
     background: rgb(28,14,18);
     background: linear-gradient(90deg, rgba(28,14,18,1) 16%, rgba(28,24,51,1) 72%);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; /*1em*/
-    margin: 0px auto;
-    /* max-width: 1024px; */
-    height: 100vh;
+    height: 600px;
 }
 
 header nav ul {
@@ -21,8 +17,6 @@ header nav ul {
 }
 
 header nav ul li {
-    /* border: 1px solid blue; */
-    display: inline-block;
     list-style: none;
 }
 
@@ -43,14 +37,18 @@ header nav ul li {
 #art-principal {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 540px;
+}
+
+#art-principal-01{
+    height: 540px;
 }
 
 #art-secundario {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 500px;
+    height: 540px;
     width: 60%;
 }
 
