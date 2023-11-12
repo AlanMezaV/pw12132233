@@ -24,6 +24,30 @@ header nav ul li {
     list-style: none;
 }
 
+.contenedor-descripcion {
+    position: relative;
+}
+
+.descripcion {
+    position: absolute;
+    color: white;
+    top: 40px;
+    /* margin-top: 40px; */
+    font-size: 0.7em;
+    width: 190px;
+}
+
+.comics {
+    position: absolute;
+    color: white;
+    font-size: 0.7em;
+    width: 190px;
+}
+
+.disabled {
+    opacity: 0;
+}
+
 .search-input-box {
     background-color: #2f3640;
     border-radius: 5px;
@@ -47,6 +71,8 @@ header nav ul li {
     pointer-events: auto;
     padding: 5px 8px;
 }
+
+
 
 .search-input-box.active .miLista li{
     display: block;
@@ -154,6 +180,7 @@ header nav ul li {
 
 #art-secundario-02 {
     margin-left: 110px;
+    width: 190px;
 }
 
 .caja {
@@ -161,7 +188,7 @@ header nav ul li {
     justify-content: center;
     border-radius: 25px;
     flex-direction: column;
-    
+    margin-bottom: 100px;
     width: 400px;
     height: 380px;
     margin-left: 90px;
